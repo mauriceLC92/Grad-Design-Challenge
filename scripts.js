@@ -11,5 +11,3 @@ button.addEventListener('click', function(e) {
 
   
 });
-
-console.log("script is running");
