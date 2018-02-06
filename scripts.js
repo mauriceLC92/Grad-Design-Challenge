@@ -5,7 +5,7 @@ Some hints are given below but you can use any structure or approach of your cho
 
 */
 function toggleVisibility() {
-    let block = document.getElementById("block1");
+    let block = document.getElementById("profile-head");
     if (block.style.display === "none") {
         block.style.display = "block";
     } else {

@@ -3,3 +3,98 @@ Your styles should go in here.
 Use any styles of your choosing, the solution should support the latest browsers -1.
 */
 
+/*Make parent element a flex container*/
+main{
+    flex: 1 0 auto; /*fill the available space*/
+}
+
+body {
+    background-color: DodgerBlue;
+    display: flex; /*flex superpowers activated! */
+    flex-direction: column; /*Stack the flex-items */
+    align-items: center;
+  }
+
+.content{
+    display: flex;
+    flex: 1 1 auto; /*this makes sure the section grows to fill the entire available space and shrinks too*/
+    flex-direction: column;
+}
+.profile-head {
+   /* flex: 0 0 280px;  */
+   display: flex;  
+   padding: 25px;
+   background-color: #ffffff;
+   height: 90px;
+   width: 340px;
+ }
+ .profle-details{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 50px;
+  }
+
+  .name{
+      font-weight: bold;
+      text-decoration-color: black;
+  }
+
+  .address{
+      
+    text-decoration-color: rgb(252, 17, 17);
+}
+
+button {
+    background-color: #F2F2F8;
+    color: black;
+    margin-top: 25px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration-color: black;
+    display: inline-block;
+    font-size: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    /* display: flex; */
+}   
+
+.line{
+    width: 360px;
+    height: 47px;
+    border-bottom: 1px solid rgb(194, 187, 187);
+    position: relative;
+    left: -110px;
+    }
+
+ul { /* Flex container*/
+    display: flex; /*or inline-flex*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: DodgerBlue;
+    
+  }
+
+  #block1 { /* Flex children items*/
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin: 8px;
+    list-style: none;
+    height: 120px;
+    width: 360px;
+  }
+
+  li{
+      list-style: none;
+  }
