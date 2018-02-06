@@ -74,11 +74,11 @@ img{
 }   
 
 .line{
-    width: 360px;
+    width: 350px;
     height: 47px;
     border-bottom: 1px solid rgb(194, 187, 187);
     position: relative;
-    left: -110px;
+    left: -96px;
 }
 
 ul { /* Flex container*/
