@@ -12,11 +12,25 @@ function toggleVisibility() {
         block.style.display = "none";
     }
 }
+
+function change()
+{
+    let change = document.getElementById("hideContentButton");
+    if (change.innerHTML == "HIDE CONTENT")
+        {
+            change.innerHTML = "SHOW CONTENT";
+        }
+   else {
+            change.innerHTML = "HIDE CONTENT";
+        }
+}
  
 let hideContentButton = document.getElementById('hideContentButton');
 
 hideContentButton.addEventListener('click', function()
 {
+
     console.log("clicked");
     toggleVisibility();
+    change();
 });
