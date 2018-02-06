@@ -14,6 +14,7 @@ function toggleVisibility() {
 }
  
 let hideContentButton = document.getElementById('hideContentButton');
+
 hideContentButton.addEventListener('click', function()
 {
     console.log("clicked");
