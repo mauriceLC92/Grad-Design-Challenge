@@ -4,9 +4,9 @@ Use any styles of your choosing, the solution should support the latest browsers
 */
 
 /*Make parent element a flex container*/
-main{
-    flex: 1 0 auto; /*fill the available space*/
-}
+/* main{
+    flex: 1 0 auto;
+} */
 
 body {
     background-color: DodgerBlue;
@@ -24,7 +24,7 @@ body {
 .profile-head {
    /* flex: 0 0 280px;  */
    display: flex;  
-   padding: 25px;
+   padding: 15px;
    background-color: #ffffff;
    height: 90px;
    width: 340px;
@@ -56,11 +56,11 @@ button {
     background-color: #F2F2F8;
     color: black;
     margin-top: 25px;
-    padding: 5px 15px;
+    padding: 10px 29px;
     text-align: center;
     text-decoration-color: black;
     display: inline-block;
-    font-size: 8px;
+    font-size: 10px;
     border-radius: 4px;
     font-weight: bold;
     align-items: center;
@@ -68,7 +68,7 @@ button {
 
 img{
     border-radius: 50%;
-    width: 100px;
+    width: 90px;
     height: auto;
     /* display: flex; */
 }   
