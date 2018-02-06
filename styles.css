@@ -28,16 +28,14 @@ body {
    background-color: #ffffff;
    height: 90px;
    width: 340px;
-    
  }
  .profle-details{
-    /* flex: 1 1 auto; */
+    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     font-weight: 300;
     color: #fff;
     padding-left: 50px;
-    border-bottom: 1px solid rgb(194, 187, 187);
   }
 
   .name{
@@ -47,7 +45,6 @@ body {
   }
 
   .address{
-    /* font-family: Roboto; */
     color: rgb(165, 162, 162);
     margin: 5px 0 0 5px;
 }
@@ -70,7 +67,6 @@ img{
     border-radius: 50%;
     width: 90px;
     height: auto;
-    /* display: flex; */
 }   
 
 .line{
@@ -81,14 +77,6 @@ img{
     left: -96px;
 }
 
-ul { /* Flex container*/
-    display: flex; /*or inline-flex*/
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    background-color: DodgerBlue;
-    
-  }
   p{
     font-family: verdana;
     padding-left: 12px
@@ -102,8 +90,4 @@ ul { /* Flex container*/
     list-style: none;
     height: 120px;
     width: 360px;
-  }
-
-  li{
-      list-style: none;
   }
