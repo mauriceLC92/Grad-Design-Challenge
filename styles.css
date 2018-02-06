@@ -10,6 +10,7 @@ main{
 
 body {
     background-color: DodgerBlue;
+    padding-top: 22px;
     display: flex; /*flex superpowers activated! */
     flex-direction: column; /*Stack the flex-items */
     align-items: center;
@@ -27,24 +28,28 @@ body {
    background-color: #ffffff;
    height: 90px;
    width: 340px;
+    
  }
  .profle-details{
-    flex: 1 1 auto;
+    /* flex: 1 1 auto; */
     display: flex;
     flex-direction: column;
     font-weight: 300;
     color: #fff;
     padding-left: 50px;
+    border-bottom: 1px solid rgb(194, 187, 187);
   }
 
   .name{
       font-weight: bold;
-      text-decoration-color: black;
+      color: black;
+      margin: 15px 0 0 5px;
   }
 
   .address{
-      
-    text-decoration-color: rgb(252, 17, 17);
+    /* font-family: Roboto; */
+    color: rgb(165, 162, 162);
+    margin: 5px 0 0 5px;
 }
 
 button {
@@ -74,7 +79,7 @@ img{
     border-bottom: 1px solid rgb(194, 187, 187);
     position: relative;
     left: -110px;
-    }
+}
 
 ul { /* Flex container*/
     display: flex; /*or inline-flex*/
@@ -83,6 +88,10 @@ ul { /* Flex container*/
     flex-direction: row;
     background-color: DodgerBlue;
     
+  }
+  p{
+    font-family: verdana;
+    padding-left: 12px
   }
 
   #block1 { /* Flex children items*/
