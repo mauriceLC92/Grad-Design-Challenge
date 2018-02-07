@@ -91,3 +91,7 @@ img{
     height: 120px;
     width: 360px;
   }
+
+  h2{
+      display: none;
+  }
